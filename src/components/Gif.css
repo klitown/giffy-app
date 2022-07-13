@@ -1,0 +1,25 @@
+.gif {
+    border-radius: 6px;
+    border: 4px solid #9796f0;
+    margin: 16px 0 16px 0;
+    display: flex;
+    flex-direction: column;
+    max-width: 50vw;
+    color: #eee;
+    text-decoration: none;
+}
+
+.gif img {
+    object-fit: cover;
+}
+
+.gif .title {
+    font-size: 1.1rem;
+    color: black;
+    background: #acb6e5;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #86fde8, #acb6e5);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #86fde8, #acb6e5);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
